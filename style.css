@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+li, a, button {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #18181B;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: transparent;
+  padding: 1rem 10%;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#cta-signup {
+  display: flex;
+  justify-content: center;
+  background: white;
+  border: 1.5 solid #A1A1AA;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  width: 460px;
+  margin-right: 8.625rem;
+}
+
+.content-wrapper h1 {
+  font-size: 58px;
+  font-weight: 800;
+}
+
+.join-others {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-top: 46px;
+}
+
+.content-wrapper p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.content-wrapper #num_devs {
+  font-weight: 700;
+}
+
+.cta-btn {
+    margin-top: 53px;
+}
+
+.cta-btn #feedback-btn {
+    border: 0px;
+    border-radius: 10px;
+    background: #18181B;
+    color: white;
+    padding: 1rem;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cta-btn #download-btn {
+    border: 0px;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: black;
+    padding: 1rem;
+
+    font-size: 18px;
+    font-weight: 700;
+}
